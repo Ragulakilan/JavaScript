@@ -3,26 +3,26 @@ console.clear();
 
 //  Task 1 — Employee Eligibility
 
-let employeeName =prompt("Enter Your Name");
-let age = prompt("Enter Your Age");
-let experience = prompt("Enter your Experience")
-let salary = prompt("Enter Your Salary")
+// let employeeName =prompt("Enter Your Name");
+// let age = prompt("Enter Your Age");
+// let experience = prompt("Enter your Experience")
+// let salary = prompt("Enter Your Salary")
 
-if (age >= 21 && experience >= 1 && salary >=20000) {
-    console.log("Employee is eligible");
-} else{
-        if (age < 21) {
-             console.log("Not eligible: Age must be 21 or above");
-        }
-}
-if (experience < 1) {
+// if (age >= 21 && experience >= 1 && salary >=20000) {
+//     console.log("Employee is eligible");
+// } else{
+//         if (age < 21) {
+//              console.log("Not eligible: Age must be 21 or above");
+//         }
+// }
+// if (experience < 1) {
     
-    console.log("Not eligible: Experience must be at least 1 year");
+//     console.log("Not eligible: Experience must be at least 1 year");
     
-}
-if (salary < 20000) {
-    console.log("Not eligible: Salary must be ₹20,000 or above");
-}
+// }
+// if (salary < 20000) {
+//     console.log("Not eligible: Salary must be ₹20,000 or above");
+// }
 
 
 
@@ -30,101 +30,101 @@ if (salary < 20000) {
 
 // Task 2 — ATM Withdrawal
 
-let balance =10000
-let Withdraw = Number(prompt("Enter withdrawal amount"))
+// let balance =10000
+// let Withdraw = Number(prompt("Enter withdrawal amount"))
 
 
-if (Withdraw <= 0) {
-    console.log("Invalid amount");
+// if (Withdraw <= 0) {
+//     console.log("Invalid amount");
     
-} else if (Withdraw > balance) {
-    console.log("Insufficient Balance");
-}
+// } else if (Withdraw > balance) {
+//     console.log("Insufficient Balance");
+// }
 
-else if (Withdraw % 100 !==0) {
-    console.log("Amount must be a multiple of 100");
+// else if (Withdraw % 100 !==0) {
+//     console.log("Amount must be a multiple of 100");
          
-}    
+// }    
         
- else {
-    amount = balance-Withdraw;
+//  else {
+//     amount = balance-Withdraw;
 
-       console.log("Withdrawal successful");
-            console.log("Remaining Balance: "+ amount);
+//        console.log("Withdrawal successful");
+//             console.log("Remaining Balance: "+ amount);
     
-}
+// }
 
 
 
 //  Task 3 — Login System with 3 Attempts
 
-let userName = "admin";
-let  crtpassword ="12345";
+// let userName = "admin";
+// let  crtpassword ="12345";
 
-let attempt = 0;
-let login =false;
+// let attempt = 0;
+// let login =false;
 
-while (attempt< 3) {
-    let user =prompt("Enter username:");
-    let password = prompt("Enter password");
+// while (attempt< 3) {
+//     let user =prompt("Enter username:");
+//     let password = prompt("Enter password");
 
-    attempt++;
+//     attempt++;
 
-    if (user===userName && password===crtpassword){
-        console.log("Login Successful");
-        login =true;
-        break; 
-    }else{
-        console.log("Wrong username or password");
+//     if (user===userName && password===crtpassword){
+//         console.log("Login Successful");
+//         login =true;
+//         break; 
+//     }else{
+//         console.log("Wrong username or password");
         
-    }
+//     }
     
-}
-if (login === false) {
-    console.log("Account Locked");
+// }
+// if (login === false) {
+//     console.log("Account Locked");
     
-}
+// }
 
 
 
 // Task 4 — Student Grade System
 
-let maths = Number(prompt("Enter your maths mark:"))
-let english = Number(prompt("Enter your english mark:"))
-let science = Number(prompt("Enter your science mark:"))
-let social = Number(prompt("Enter your social mark:"))
-let computer = Number(prompt("Enter your computer mark:"))
+// let maths = Number(prompt("Enter your maths mark:"))
+// let english = Number(prompt("Enter your english mark:"))
+// let science = Number(prompt("Enter your science mark:"))
+// let social = Number(prompt("Enter your social mark:"))
+// let computer = Number(prompt("Enter your computer mark:"))
 
 
-let total = maths +english+ science+ social+computer;
-let Average = total/5;
-let Grade ;
+// let total = maths +english+ science+ social+computer;
+// let Average = total/5;
+// let Grade ;
 
- if (Average >= 90) {
-   Grade = "A";
-} 
-else if ( Average >= 80) {
+//  if (Average >= 90) {
+//    Grade = "A";
+// } 
+// else if ( Average >= 80) {
 
-    Grade = "B";
-  }
-else if (Average >= 70) {
+//     Grade = "B";
+//   }
+// else if (Average >= 70) {
 
-    Grade = "C";
-  } 
-  else if (Average >= 60) {
+//     Grade = "C";
+//   } 
+//   else if (Average >= 60) {
 
-    Grade = "D";
-  }
+//     Grade = "D";
+//   }
 
-else 
-    {
-        Grade = "F";
+// else 
+//     {
+//         Grade = "F";
         
-    }
+//     }
 
-console.log("Total = "+ total);
-console.log("Average = "+ Average);
-console.log("Grade = "+ Grade);
+// console.log("Total = "+ total);
+// console.log("Average = "+ Average);
+// console.log("Grade = "+ Grade);
 
 
 
