@@ -79,11 +79,7 @@ console.log(employee.salary);
  console.log("discount:", Discount);
  console.log("final Amount:" , finalAmount);
 
-//  console.log(product + quantity);
-//   console.log(product - quantity);
-//    console.log(product * quantity);
-//     console.log(product / quantity);
- 
+
  
 //  7. Comparison Operators
 console.log(25 > 20);       // true
