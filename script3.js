@@ -442,20 +442,3 @@ hl();
 
 
 
-// Your program should:
-// Print all students
-// Print only ECE students
-// Find students who scored above 80
-// Calculate total marks
-// Calculate average
-// Display highest mark
-// Display lowest mark
-// Use for...of
-// Use functions
-// Use object destructuring
-
-
-
-
-
-
