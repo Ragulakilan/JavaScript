@@ -1,7 +1,5 @@
 console.clear();
 
-
-
 // Level 1 — Variables & Operators
 
 // 1. Salary Calculator
@@ -29,6 +27,8 @@ console.log(c); //12
 // 3. Logical Operators
 
 // Without running the code, predict the output:
+
+
 console.log(10 > 5 && 20 < 10 || 5 === "5"); //false
 console.log(10 < 5 || 20 >= 20 && 5 == "5"); //true
 console.log(!(10 > 5));//false
@@ -80,8 +80,6 @@ else if (mark >=90) {
     }
 
 
-
-
 // 6. Nested Login
 
 
@@ -112,7 +110,6 @@ if (username == username ) {
 
 
 
-
 //  Level 3 — Loops
 
 // 7. Number Pattern
@@ -127,8 +124,6 @@ for(i=1; i<=10; i++)
 let num = 7;
 for(j=1; j<=10; j++)
     console.log("7 x " +j+ " = "+ num*j);
-
-
 
 
 // 9. Reverse Countdown
